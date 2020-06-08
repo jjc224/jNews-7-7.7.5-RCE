@@ -1,10 +1,11 @@
 # jNews (com_jnews) 7.0.0 <= 7.7.5 - Remote Code Execution
 
+<pre>
  ---------------------------------------------------------------------------------------------------------------------------------  
 | jNews (com_jnews) 7.0.0 <= 7.7.5 - Remote Code Execution                                                            31/10/2012  | 
 |                                                                                                                                 | 
 | Author: (Phizo) Joshua Coleman                                                                                                  | 
-| Usage:   php exploit.php -u <url> -f <output shell filename>                                                                    |
+| Usage:  php exploit.php -u http://target.tld -f shell.php                                                                       |
 |                                                                                                                                 |
 | The vulnerability affects all variations of jNews at the time of release, including those which are premium                     |
 | (this is where the 7.7.5 comes in) rather than just the free version.                                                           |
